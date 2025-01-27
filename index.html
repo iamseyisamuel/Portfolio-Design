@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphic Designer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>SAMUEL OLUWASEYI</h1>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        <img src="./assets/menu-deep.svg" alt="" />
+      </div>
+      <nav>
+        <a href="#works">Works</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <nav class="mobile-menu">
+        <a href="#works">Works</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Creative Graphic Designer</h2>
+      <p>Turning ideas into visual stories</p>
+      <div class="projects">
+        <img src="./assets/img-1.png" alt="Project 1" />
+        <img src="./assets/img-2.png" alt="Project 2" />
+        <img src="./assets/img-3.png" alt="Project 3" />
+      </div>
+      <button>View Projects</button>
+    </section>
+
+    <section id="works" class="works">
+      <h2>Selected Works</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="./assets/img-2.png" alt="Work 1" />
+          <div class="info">
+            <h3>Brand Identity</h3>
+            <p>Branding</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img-4.png" alt="Work 2" />
+          <div class="info">
+            <h3>Mobile App Design</h3>
+            <p>UI/UX</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img-5.png" alt="Work 3" />
+          <div class="info">
+            <h3>Event Branding</h3>
+            <p>Flyer Design</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img-6.png" alt="Work 3" />
+          <div class="info">
+            <h3>Marketing Campaign</h3>
+            <p>Digital Marketing</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img-7.png" alt="Work 3" />
+          <div class="info">
+            <h3>Product Packaging</h3>
+            <p>Packaging</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img-1.png" alt="Work 3" />
+          <div class="info">
+            <h3>Social Media</h3>
+            <p>Degital</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about_image">
+        <img src="./assets/profile.png" alt="Profile" />
+      </div>
+      <div class="content">
+        <h2>About Me</h2>
+        <p>
+          I'm Samuel Oluwaseyi Paul, a passionate graphic designer and a video
+          editor with over 5 years of experience in creating compelling visual
+          solutions. My approach combines creativity with strategic thinking to
+          deliver impactful designs that meet business objectives.
+        </p>
+
+        <h2>Skills</h2>
+        <div class="skills_container">
+          <div class="pills">
+            <p>Brand Design</p>
+          </div>
+          <div class="pills">
+            <p>UI/UX Design</p>
+          </div>
+          <div class="pills">
+            <p>Typography</p>
+          </div>
+          <div class="pills">
+            <p>Web Design</p>
+          </div>
+          <div class="pills">
+            <p>Video Editing</p>
+          </div>
+          <div class="pills">
+            <p>Adobe Creative Suite</p>
+          </div>
+          <div class="pills">
+            <p>Motiff</p>
+          </div>
+          <div class="pills">
+            <p>Figma</p>
+          </div>
+        </div>
+
+        <h2>Experience</h2>
+        <div class="experience">
+          <p>Creative Designer & Editor at Creative Agency</p>
+          <p>2024-present</p>
+        </div>
+        <div class="experience">
+          <p>Visual Designer at Tech Company</p>
+          <p>2020-2023</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Let's Work Together</h2>
+      <p>Have a project in mind? Let's create something amazing.</p>
+      <div class="contact_info">
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact_container">
+          <h1>Contact Information</h1>
+          <div class="contact_info_details">
+            <div>
+              <img src="./assets/email.svg" alt="" />
+              <p>iamseyi@protonmail.com</p>
+            </div>
+            <div>
+              <img src="./assets/phone.svg" alt="" />
+              <p>+234 (903) 367-3116</p>
+            </div>
+            <div>
+              <img src="./assets/location.svg" alt="" />
+              <p>Lagos, Nigeria</p>
+            </div>
+          </div>
+
+          <div class="social_media">
+            <h1>Follow me</h1>
+            <div class="socials">
+              <a href="instagram.com/iamseyisamuel">
+                <img src="./assets/behance.svg" alt="" />
+              </a>
+              <a href="be.net/samueloluwaseyipaul">
+                <img src="./assets/linkedin.svg" alt="" />
+              </a>
+              <a href="https://www.linkedin.com/iamseyisamuel">
+                <img src="./assets/github.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function toggleMenu() {
+        const mobileMenu = document.querySelector(".mobile-menu");
+        mobileMenu.classList.toggle("show-menu");
+      }
+    </script>
+  </body>
+</html>
